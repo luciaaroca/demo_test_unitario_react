@@ -67,6 +67,19 @@ describe("Testing a button", () => {
     expect(count).toBe(1);
   });
 
-
-
+  it("Button without increment prop", () => {
+    let count = 0;
+    
+    const incrementCount = (increment) => {
+      count += increment;
+      return count;
+    };
+    const { container } = render(
+      <Button onClickFunction={incrementCount} />
+    );
+    const button = container.querySelector("button");
+    fireEvent.click(button);
+    expect(count).toBe(1);
+    expect(button.textContent).contains("+1");
+  });
 });

@@ -45,7 +45,7 @@ describe("App", () => {
 
 });
 
-describe('App wit buttons', () => {
+describe('App with buttons', () => {
     it('App works', () => {
         const { container } = render(<App />)
         //console.log(container)
