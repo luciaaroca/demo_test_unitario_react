@@ -45,7 +45,7 @@ describe("App", () => {
 
 });
 
-describe('App wit buttons', () => {
+describe('App with buttons', () => {
     it('App works', () => {
         const { container } = render(<App />)
         //console.log(container)
@@ -71,6 +71,6 @@ describe('App wit buttons', () => {
         fireEvent.click(buttons[1])
         expect(result.textContent).toBe('1221')
         fireEvent.click(buttons[0])
-        expect(result.textContent).toBe('1222')
+        expect(result.textContent).toBe('1222'
     })
 });
