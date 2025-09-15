@@ -71,6 +71,6 @@ describe('App with buttons', () => {
         fireEvent.click(buttons[1])
         expect(result.textContent).toBe('1221')
         fireEvent.click(buttons[0])
-        expect(result.textContent).toBe('1222'
+        expect(result.textContent).toBe('queso')
     })
 });
