@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, fireEvent } from "@testing-library/react";
-import Button from "./Button";
+import Button from './Button'
 
 describe("Testing a button", () => {
   it("Button +1000 is rendered", () => {
