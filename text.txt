@@ -3,3 +3,7 @@
 3. Sube cambio al repo
 4. Mete error en el test
 5. Sube tus cambios
+6. Arregla errores
+7. Sube tus cambios
+8. Comprueba 0 errores en develop
+9. Merge a Mast
