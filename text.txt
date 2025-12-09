@@ -1,3 +1,5 @@
 1. Cambiar a rama develop
 2. Mete un error
 3. Sube cambio al repo
+4. Mete error en el test
+5. Sube tus cambios
